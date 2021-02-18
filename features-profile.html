@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- features-profile.html  Tue, 07 Jan 2020 03:35:31 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+<title>Profile &mdash; DORABHAI</title>
+
+<!-- General CSS Files -->
+<link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<!-- <link rel="stylesheet" href="assets/modules/fontawesome/css/all.min.css"> -->
+
+<!-- CSS Libraries -->
+<link rel="stylesheet" href="assets/modules/bootstrap-social/bootstrap-social.css">
+<link rel="stylesheet" href="assets/modules/summernote/summernote-bs4.css">
+
+<!-- Template CSS -->
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="assets/css/components.min.css">
+</head>
+
+<body class="layout-4">
+<!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<div id="app">
+    <div class="main-wrapper main-wrapper-1">
+        <div class="navbar-bg"></div>
+
+        <!-- Start app top navbar -->
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <form class="form-inline mr-auto">
+                <ul class="navbar-nav mr-3">
+                    <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+                    <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </form>
+            <ul class="navbar-nav navbar-right">
+                <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
+                    <div class="dropdown-menu dropdown-list dropdown-menu-right">
+                    <div class="dropdown-header">Messages
+                        <div class="float-right">
+                            <a href="#">Mark All As Read</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-list-content dropdown-list-message">
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle">
+                                <div class="is-online"></div>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Kusnaedi</b>
+                                <p>Hello, Bro!</p>
+                                <div class="time">10 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-2.png" class="rounded-circle">
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Dedik Sugiharto</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                <div class="time">12 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-3.png" class="rounded-circle">
+                                <div class="is-online"></div>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Agung Ardiansyah</b>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <div class="time">12 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-4.png" class="rounded-circle">
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Ardian Rahardiansyah</b>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
+                                <div class="time">16 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle">
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Alfa Zulkarnain</b>
+                                <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                                <div class="time">Yesterday</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="dropdown-footer text-center">
+                        <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    </div>
+                </li>
+                <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+                    <div class="dropdown-menu dropdown-list dropdown-menu-right">
+                    <div class="dropdown-header">Notifications
+                        <div class="float-right">
+                            <a href="#">Mark All As Read</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-list-content dropdown-list-icons">
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-icon bg-primary text-white">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="dropdown-item-desc"> Template update is available now!
+                                <div class="time text-primary">2 Min Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-info text-white">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>You</b> and <b>Dedik Sugiharto</b> are now friends
+                                <div class="time">10 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-success text-white">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Kusnaedi</b> has moved task <b>Fix bug header</b> to <b>Done</b>
+                                <div class="time">12 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-danger text-white">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                Low disk space. Let's clean it!
+                                <div class="time">17 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-info text-white">
+                                <i class="fas fa-bell"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                Welcome to CodiePie template!
+                                <div class="time">Yesterday</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="dropdown-footer text-center">
+                        <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+                    <div class="d-sm-none d-lg-inline-block">Hi, DORABHAI</div></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-title">Logged in 5 min ago</div>
+                        <a href="#" class="dropdown-item has-icon"><i class="far fa-user"></i> Profile</a>
+                        <a href="features-activities.html" class="dropdown-item has-icon"><i class="fas fa-bolt"></i> Activities</a>
+                        <a href="features-settings.html" class="dropdown-item has-icon"><i class="fas fa-cog"></i> Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="auth-login.html" class="dropdown-item has-icon text-danger"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Start main left sidebar menu -->
+        <div class="main-sidebar sidebar-style-3">
+            <aside id="sidebar-wrapper">
+                <div class="sidebar-brand">
+                    <a href="../index.html">DORABHAI</a>
+                </div>
+                <div class="sidebar-brand sidebar-brand-sm">
+                    <a href="index.html">DB</a>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="menu-header">Upload</li>
+                    <li><a class="nav-link" href="upload/u-syllabus.html"><i class="far fa-square"></i> <span>Syllabus</span></a></li>
+                    <li><a class="nav-link" href="upload/u-courses.html"><i class="far fa-square"></i> <span>Courses</span></a></li>
+                    <li><a class="nav-link" href="upload/u-videos.html"><i class="far fa-square"></i> <span>Videos</span></a></li>
+                    <li><a class="nav-link" href="upload/u-notes.html"><i class="far fa-square"></i> <span>Notes</span></a></li>
+                    <li><a class="nav-link" href="upload/u-mocktests.html"><i class="far fa-square"></i> <span>Mock Tests</span></a></li>
+                    <li class="menu-header">View</li>
+                    <li><a class="nav-link" href="view/v-syllabus.html"><i class="far fa-square"></i> <span>Syllabus</span></a></li>
+                    <li><a class="nav-link" href="view/v-courses.html"><i class="far fa-square"></i> <span>Courses</span></a></li>
+                    <li><a class="nav-link" href="view/v-videos.html"><i class="far fa-square"></i> <span>Videos</span></a></li>
+                    <li><a class="nav-link" href="view/v-notes.html"><i class="far fa-square"></i> <span>Notes</span></a></li>
+                    <li><a class="nav-link" href="view/v-mocktests.html"><i class="far fa-square"></i> <span>Mock Tests</span></a></li>
+                    <li class="menu-header">Others</li>
+                    <li><a class="nav-link" href="errors-404.html"><i class="far fa-square"></i> <span>Q & A Forum</span></a></li>
+                    <li><a class="nav-link" href="errors-500.html"><i class="far fa-square"></i> <span>Notify Enrolled Students</span></a></li>
+            </aside>
+        </div>
+
+        <!-- Start app main Content -->
+        <div class="main-content">
+            <section class="section">
+                <div class="section-header">
+                    <h1>Profile</h1>
+                    <div class="section-header-breadcrumb">
+                        <div class="breadcrumb-item">Dashboard</div>
+                        <div class="breadcrumb-item">Profile</div>
+                    </div>
+                </div>
+                <div class="section-body">
+                    <h2 class="section-title">Hi, DORABHAI</h2>
+                    <p class="section-lead">Change information about yourself on this page.</p>
+
+                    <div class="row mt-sm-4">
+                        <div class="col-12 col-md-12 col-lg-5">
+                            <div class="card profile-widget">
+                                <div class="profile-widget-header">                     
+                                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle profile-widget-picture">
+                                    <div class="profile-widget-items">
+                                        <div class="profile-widget-item">
+                                            <div class="profile-widget-item-label">Videos</div>
+                                            <div class="profile-widget-item-value">187</div>
+                                        </div>
+                                        <div class="profile-widget-item">
+                                            <div class="profile-widget-item-label">Students</div>
+                                            <div class="profile-widget-item-value">6,8K</div>
+                                        </div>
+                                        <div class="profile-widget-item">
+                                            <div class="profile-widget-item-label">Earnings</div>
+                                            <div class="profile-widget-item-value">2,1K</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profile-widget-description">
+                                    <div class="profile-widget-name">DORABHAI <div class="text-muted d-inline font-weight-normal"><div class="slash"></div> Chemistry Lecture</div></div>
+                                    Michelle Green is a superhero name in <b>INDIA</b>, especially in my family. He is not a fictional character but an original hero in my family, a hero for his children and for his wife. So, I use the name as a user in this template. Not a tribute, I'm just bored with <b>'John Doe'</b>.
+                                </div>
+                                <div class="card-footer text-center">
+                                    <div class="font-weight-bold mb-2">Follow Michelle On</div>
+                                    <a href="#" class="btn btn-social-icon btn-facebook mr-1"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="btn btn-social-icon btn-twitter mr-1"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-social-icon btn-github mr-1"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="btn btn-social-icon btn-instagram"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-7">
+                            <div class="card">
+                                <form method="post" class="needs-validation" novalidate="">
+                                    <div class="card-header">
+                                        <h4>Edit Profile</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="form-group col-md-6 col-12">
+                                                <label>First Name</label>
+                                                <input type="text" class="form-control" value="DORA" required="">
+                                                <div class="invalid-feedback">Please fill in the first name</div>
+                                            </div>
+                                            <div class="form-group col-md-6 col-12">
+                                                <label>Last Name</label>
+                                                <input type="text" class="form-control" value="BHAI" required="">
+                                                <div class="invalid-feedback">Please fill in the last name</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-7 col-12">
+                                                <label>Email</label>
+                                                <input type="email" class="form-control" value="Official@dorabhai.com" required="">
+                                                <div class="invalid-feedback">Please fill in the email</div>
+                                            </div>
+                                            <div class="form-group col-md-5 col-12">
+                                                <label>Phone</label>
+                                                <input type="tel" class="form-control" value="9898989898">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-12">
+                                                <label>Bio</label>
+                                                <textarea class="form-control summernote-simple">Michelle Green is a superhero name in <b>USA</b>, especially in my family. He is not a fictional character but an original hero in my family, a hero for his children and for his wife. So, I use the name as a user in this template. Not a tribute, I'm just bored with <b>'John Doe'</b>.</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group mb-0 col-12">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" name="remember" class="custom-control-input" id="newsletter">
+                                                    <label class="custom-control-label" for="newsletter">Subscribe to newsletter</label>
+                                                    <div class="text-muted form-text">You will get new information about products, offers and promotions</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer text-right">
+                                        <button class="btn btn-primary">Save Changes</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Start app Footer part -->
+        
+    </div>
+</div>
+
+<!-- General JS Scripts -->
+<script src="assets/bundles/lib.vendor.bundle.js"></script>
+<script src="js/CodiePie.js"></script>
+
+<!-- JS Libraies -->
+<script src="assets/modules/summernote/summernote-bs4.js"></script>
+
+<!-- Page Specific JS File -->
+
+<!-- Template JS File -->
+<script src="js/scripts.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+<!-- features-profile.html  Tue, 07 Jan 2020 03:35:33 GMT -->
+</html>
